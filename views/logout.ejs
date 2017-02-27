@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>3秒后离开异世界~</h1>
+    <p>Welcome to <%= title %></p>
+    <p>正在登出...</p>
+
+
+    <script type="text/javascript">
+        setTimeout(function(){
+            window.location.href = "/";
+        }, 3000);
+    </script>
+
+    
+  </body>
+</html>
